@@ -1,2 +1,2 @@
 # Smart-Door-Lock
-wifi connected door lock with arduino and esp8266
+wifi connected door lock with arduino and esp8266 using Blynk app
