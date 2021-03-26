@@ -4,15 +4,15 @@
 #include <SoftwareSerial.h>
 #include <Servo.h>
 
-char network_name[] = "SUPERONLINE_WiFi_8875";
-char network_password[] = "HPVATVJU77PA";
-char auth[] = "RJAIlVBzIe1jz08SN3zP3qWVd-wOtunu";
-int SERVO_PIN = 4;
-int led = 5;
-int lock_degree = 120;
-int unlock_degree = 0;
+char network_name[] = "YOUR NETWORK NAME";
+char network_password[] = "YOUR PASSWORD";
+char auth[] = "YOUR AUTH TOKEN";
+int SERVO_PIN = 4; 
+int led = 5; 
+int lock_degree = 120; 
+int unlock_degree = 0; 
 Servo  servo;
-SoftwareSerial EspSerial(2, 3);
+SoftwareSerial EspSerial(2, 3); //Rx, Tx
 #define ESP8266_BAUD 9600
 
 ESP8266 wifi(&EspSerial);
@@ -37,6 +37,7 @@ void setup()
   EspSerial.begin(ESP8266_BAUD);
   delay(10);
   Blynk.begin(auth, wifi, network_name, network_password);
+  
   servo.attach(SERVO_PIN);
   pinMode(led, OUTPUT);
   servo.write(unlock_degree);
