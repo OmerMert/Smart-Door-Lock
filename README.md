@@ -5,7 +5,9 @@ Wifi connected door lock with arduino and ESP8266 using Blynk app
 Flash ESP8266 firmware (if you haven't upload any code into esp before, you don't have to do this step)
 Set up the below circuit to flash the ESP. (Not sure if its work for arduino nano or mega etc.)
 
-![esp8266-FlashCircuit](https://user-images.githubusercontent.com/47865653/112714145-0ad2a300-8eea-11eb-8d28-c8128f026697.png)
+![Esp8266-Flash-Circuit](https://user-images.githubusercontent.com/47865653/112714415-576aae00-8eeb-11eb-8f9d-ad899ade438a.png)
+
+Download Esp flasher tool.
 
 https://www.youtube.com/watch?v=esRwg7yTwQM
 
