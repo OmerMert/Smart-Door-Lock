@@ -13,10 +13,10 @@ https://www.youtube.com/watch?v=esRwg7yTwQM
 
 # Step 2
 Change baud rate of the ESP.
-To do that you should set up the circuit in step 1.
-After than, upload empty code to arduino and open serial monitor. Make sure that bound rate is 115200 and .....
+To do that you should set up the circuit in step 1 but revome the Gpio to ground connection.
+After than, upload empty code to arduino and open serial monitor. Make sure that bound rate is 115200 and selected Both NL & CR
 Than, write AT to the top, you should see OK on the serial monitor.
-Change baund rate write AT+UART_DEF=9600,8,1,0,0
+Finally, Change baund rate to 9600 by writing AT+UART_DEF=9600,8,1,0,0
 
 https://www.youtube.com/watch?v=6rx-iyUq1Po&list=LL&index=3&t=298s
 
