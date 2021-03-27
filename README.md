@@ -27,3 +27,6 @@ Set up the below circuit
 
 # Step 4
 Upload the code to the arduino
+
+For 3d print parts;
+https://www.thingiverse.com/thing:4808229
