@@ -9,7 +9,7 @@ Set up the below circuit to flash the ESP. (Not sure if its work for arduino nan
 
 Download Esp flasher tool.
 
-https://www.youtube.com/watch?v=esRwg7yTwQM
+Guide video: https://www.youtube.com/watch?v=esRwg7yTwQM
 
 # Step 2
 Change baud rate of the ESP.
@@ -18,7 +18,7 @@ After than, upload empty code to arduino and open serial monitor. Make sure that
 Than, write AT to the top, you should see OK on the serial monitor.
 Finally, Change baund rate to 9600 by writing AT+UART_DEF=9600,8,1,0,0
 
-https://www.youtube.com/watch?v=6rx-iyUq1Po&list=LL&index=3&t=298s
+Guide video: https://www.youtube.com/watch?v=6rx-iyUq1Po&list=LL&index=3&t=298s
 
 # Step 3
 Set up the below circuit 
