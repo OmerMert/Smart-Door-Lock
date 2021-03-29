@@ -7,7 +7,7 @@ Set up the below circuit to flash the ESP. (Not sure if its work for arduino nan
 
 ![Esp8266-Flash-Circuit](https://user-images.githubusercontent.com/47865653/112714415-576aae00-8eeb-11eb-8f9d-ad899ade438a.png)
 
-Download Esp flasher tool.
+Download Esp flasher tool and AT firmware.bin. Then Flash your ESP8266
 
 Guide video: https://www.youtube.com/watch?v=esRwg7yTwQM
 
