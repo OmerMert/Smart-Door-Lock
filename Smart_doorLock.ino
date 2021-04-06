@@ -12,7 +12,7 @@ int led = 5;
 int lock_degree = 120; 
 int unlock_degree = 0; 
 Servo  servo;
-SoftwareSerial EspSerial(2, 3); //Rx, Tx
+SoftwareSerial EspSerial(3, 2); //Rx, Tx
 #define ESP8266_BAUD 9600
 
 ESP8266 wifi(&EspSerial);
